@@ -9,5 +9,5 @@ public class YccApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(YccApplication.class, args);
 	}
-//sfsfsfsf
+
 }
