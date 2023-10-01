@@ -10,5 +10,6 @@ public class YccApplication {
 		SpringApplication.run(YccApplication.class, args);
 		
 	}
+	//되나?
 
 }
