@@ -17,10 +17,10 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
-		<dependency>
+<!-- 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-websocket</artifactId>
@@ -53,11 +53,24 @@
 			<version>3.0.2</version>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
+<!-- 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
+		</dependency> -->
+		<!-- jsp 사용을 위해 추가함 (jasper) -->
+		<dependency>
+		    <groupId>org.apache.tomcat.embed</groupId>
+		    <artifactId>tomcat-embed-jasper</artifactId>
 		</dependency>
+		<!-- jsp 사용을 위해 추가함 (jstl) -->
+		<!-- https://mvnrepository.com/artifact/org.glassfish.web/jakarta.servlet.jsp.jstl -->
+		<dependency>
+			<groupId>org.glassfish.web</groupId>
+			<artifactId>jakarta.servlet.jsp.jstl</artifactId>
+			<version>3.0.1</version>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
