@@ -9,11 +9,14 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 홈
                             </a>
-                            <a class="nav-link collapsed" href="${pageContext.request.contextPath}/notice/notice.do" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+<%--                             <a class="nav-link collapsed" href="${pageContext.request.contextPath}/notice/notice.do" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
                                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                                 공지사항
-                            </a>
-                            
+                            </a> --%>
+                            <a class="nav-link collapsed" href="${path}/notice/notice.do" >
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                공지사항
+                            </a>                            
                             
                             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
                                 <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
